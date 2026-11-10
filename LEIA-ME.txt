@@ -1,0 +1,74 @@
+MEMENTO 2.1 — Suas notas, no seu lugar.
+
+INSTALAR OU ATUALIZAR O PINGO
+Abra Memento-Instalar.exe e escolha Instalar Memento.
+A instalação é por usuário, sem administrador.
+As notas do Pingo são copiadas antes de substituir o programa antigo.
+O arquivo original das notas do Pingo permanece preservado.
+A inicialização com Windows é opcional; se já estava ativa no Pingo, a opção é herdada.
+
+LARGURA E GRADE
+A largura é fixa: 320 px na escala de 100%.
+Não é possível redimensionar a nota pelas bordas.
+A grade usa 20 px entre notas e margens externas.
+Uma tela de 1920 × 1080, na escala de 100%, comporta cinco colunas.
+A escala do Windows e o espaço ocupado pela barra de tarefas são considerados.
+As notas preenchem as colunas; quando uma coluna fica cheia, a próxima é usada.
+Arraste a faixa superior para trocar a ordem, a coluna ou a tela. Ao soltar, a nota se alinha à grade. Novas notas ficam abaixo da anterior ou na coluna ao lado quando falta espaço.
+Se toda a grade ficar cheia, guarde uma nota na bandeja ou use outra tela. O aplicativo avisa e não sobrepõe notas.
+
+ALTURA E ROLAGEM
+A nota comum começa com 300 px de altura na escala de 100%.
+A altura cresce com o texto e empurra as notas abaixo, mantendo as distâncias.
+Ao atingir o limite disponível da coluna, surge a rolagem vertical.
+Apagar texto reduz a altura e remove a rolagem quando ela deixa de ser necessária.
+As notas abaixo são mantidas dentro da área útil da tela.
+
+TÍTULOS DE COLUNA
+No menu da bandeja ou em •••, escolha Novo título de coluna.
+O título tem 150 px, metade da altura inicial de uma nota comum.
+O texto fica centralizado e em negrito. Cada coluna pode receber um título.
+O menu ••• também transforma uma nota existente em título, quando há espaço.
+Títulos permanecem com meia altura; texto que exceder essa área usa rolagem.
+
+TEMAS E ASSUNTOS
+Na bandeja, abra Temas e assuntos…
+Marque um tema como padrão para todas as novas notas e títulos.
+Renomeie as sete cores como assuntos: Trabalho, Pessoal, Projetos etc.
+Os nomes aparecem nas faixas das notas e nos menus.
+O menu ••• também oferece Usar este tema como padrão.
+Noite mantém fundo preto com texto branco.
+
+ÁREA DE TRABALHO
+As notas não têm botões na barra de tarefas nem exigem uma janela principal aberta.
+A integração observa a ativação da área de trabalho para manter as notas visíveis ao usar Win+D ou clicar em Mostrar área de trabalho.
+O alfinete é opcional e mantém a nota acima de outros aplicativos.
+A correção de Win+D foi conferida manualmente no teste da versão 2.1.
+
+BANDEJA E ATALHOS
+Procure o ícone amarelo junto ao relógio, inclusive dentro de ^.
+O menu permite criar notas e títulos, mostrar, guardar, recuperar da lixeira,
+organizar a grade, escolher temas, exportar, importar e sair.
+O crédito Criado por Igor Pradella aparece discretamente no final do menu.
+× guarda a nota na bandeja. A exclusão com recuperação fica em ••• > Mover para a lixeira.
+Ctrl+N cria uma nota; Ctrl+W guarda; Ctrl+S salva; Ctrl+vírgula abre opções.
+O texto colado permanece simples, sem formatação externa.
+
+DADOS
+Instalado: %LOCALAPPDATA%\Memento\notas.json
+A cópia do salvamento anterior fica em notas.json.bak.
+Na versão portátil os dados ficam em Dados, ao lado de Memento.exe.
+Extraia toda a pasta portátil antes de abrir o executável.
+Exportar cria uma cópia JSON; importar acrescenta notas sem substituir as atuais.
+O aplicativo não usa conta, nuvem, telemetria ou conexão de rede.
+As notas ficam em texto simples, sem criptografia própria.
+A desinstalação preserva as notas e deixa somente o próprio Desinstalar.exe na pasta do programa.
+
+REQUISITOS
+Windows 10/11 e .NET Framework 4.8 ou posterior.
+Aplicativo e instalador sem assinatura digital.
+O uso em dois monitores físicos com escalas diferentes ainda requer teste manual.
+
+PRÓXIMA ATUALIZAÇÃO
+O pedido de remover salvo neste computador foi concluído na versão 2.1.
+O rodapé saiu e o salvamento automático foi mantido.
