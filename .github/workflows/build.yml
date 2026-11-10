@@ -1,0 +1,25 @@
+
+name: Compilar Memento
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Baixar codigo-fonte
+        uses: actions/checkout@v4
+
+      - name: Compilar e executar testes
+        shell: pwsh
+        run: |
+          .\build.ps1 -RunTests
+
+      - name: Disponibilizar instalador
+        uses: actions/upload-artifact@v4
+        with:
+          name: Memento-Instalador
+          path: build/Memento-Instalar.exe
+          if-no-files-found: error
